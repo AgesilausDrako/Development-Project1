@@ -20,11 +20,11 @@ function imageFromThumb(thumbnail) {
 
 function titleFromThumb(thumbnail) {
   'use strict';
-  return thumbnail.getAttribute('data-image-title')
+  return thumbnail.getAttribute('data-image-title');
 }
 
 function setDetailsFromThumb(thumbnail) {
-  'use strict'
+  'use strict';
   setDetails(imageFromThumb(thumbnail), titleFromThumb(thumbnail));
 }
 
